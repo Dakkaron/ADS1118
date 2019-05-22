@@ -16,7 +16,7 @@ classifiers = ['Development Status :: 5 - Production/Stable',
 
 setup(
     name='ads1118',
-    version='1.0',
+    version='1.1',
     author='David Krywult',
     author_email='dak1st@gmx.at',
     description="""Python library for the ADS1118 4-channel ADC""",

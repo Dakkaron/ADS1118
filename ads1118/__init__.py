@@ -1,1 +1,1 @@
-from ads1118 import ADS1118
+from ads1118.ads1118 import ADS1118
