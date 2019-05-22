@@ -74,6 +74,3 @@ class ADS1118(object):
             return out*self.ADC_CONVERSION_FACTORS[pga]
         else:
             return (out >> 2) * 0.03125
-
-a=ADS1118(0,0)
-a.readData(mux=a.MUX_AIN0, pga=a.PGA_1_024V)
